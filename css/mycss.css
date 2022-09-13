@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #E8985E;
+}
+
+.page-header {
+  background-color: #262A10;
+  height: 200px;
+  margin: 0;
+}
+
+.nav-bar{
+  overflow: hidden;
+  background-color: #141204;
+}
+
+.nav-bar a{
+  float: left;
+  font-size: 19px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:solid;
+}
+
+.list-group{
+  background-color:white;
+}
