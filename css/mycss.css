@@ -61,11 +61,32 @@
 }
 
 .buy-button{
-  background-color: white;
+  background-color: #FBFFFE;
   box-sizing: border-box;
   margin-top: 140px;
   margin-left: 200px;
 }
+
+.select-date{
+  box-sizing: border-box;
+  color: black;
+  background-color:#FBFFFE;
+  margin-top: -34px;
+  margin-left: 350px;
+  margin-bottom:0;
+  }
+
+  .select-date label{
+    background-color:#FBFFFE;
+  }
+
+  .select-date select {
+    background-color:#FBFFFE;
+  }
+  
+  .select-date option {
+    background-color:#FBFFFE;
+  }
 
 .movie-box-ticket{
   box-sizing: border-box;
