@@ -1,0 +1,10 @@
+.movie-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 46px;
+}
+
+.movie-preview-box{
+
+}

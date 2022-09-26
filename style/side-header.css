@@ -1,0 +1,183 @@
+.side-header-flex{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 100;
+
+  border: 1px black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+
+  top:0;
+  bottom: 0;
+  left: 0;
+
+  max-width: 280px;
+  background-color: #f8f8eb;
+}
+
+/* LOGO BOX */
+
+.logo-box-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 280px;
+  flex: 1;
+
+}
+
+.logo-img-box-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 280px;
+  height: 200px;
+}
+
+.logo-img{
+  width: 100%;
+  padding: 50px 0 0 0;
+}
+
+/* MENU BOX */
+
+.menu-box-flex{
+  display: flex;
+  flex-direction: column;
+
+
+  flex: 2;
+
+  width: 280px;
+  
+}
+
+/* Buttons BOXES*/
+
+.home-btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 70px;
+}
+
+.login-btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  width: 100%;
+  height: 70px;
+}
+
+.help-btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 50px;
+}
+
+/* Menu buttons */
+
+.home-btn{
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 5px;
+
+  border: none;
+  border-radius: 25px;
+
+  padding: 10px 30px;
+
+  margin-top: 10px;
+
+  background-color: #ecebeb;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+
+  cursor:pointer;
+  transition: font-size .15s, opacity .15s, 
+  background-color .15s, padding .15s;
+}
+
+.login-btn{
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  
+  border: none;
+  border-radius: 25px;
+  
+  padding: 10px 32px;
+  margin-top: 20px;
+
+  background-color: #ecebeb;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+
+  cursor:pointer;
+  transition: font-size .15s, opacity .15s, 
+  background-color .15s, padding .15s;
+}
+
+.help-btn{
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  
+  border: none;
+  border-radius: 25px;
+  
+  padding: 10px 20px;
+  margin-top: 820px;
+
+  background-color: #ecebeb;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+
+  cursor:pointer;
+  transition: font-size .15s, opacity .15s, 
+  background-color .15s, padding .15s;
+}
+
+.home-btn:hover, .login-btn:hover, .help-btn:hover{
+  font-weight: 400;
+
+  border: 1px solid #979797;
+
+  opacity: .7;
+
+  background-color: #bdbdbd;
+}
+
+.home-btn:active, .login-btn:active {
+  font-size: 30px;
+  font-weight: 400;
+  
+  padding: 9px 25px;
+  
+  border: 1px solid #979797;
+
+  opacity: .7;
+  
+  background-color: #bdbdbd;
+}
+
+.help-btn:active{
+  font-size: 18px;
+  font-weight: 400;
+  
+  padding: 10px 15px;
+  
+  border: 1px solid #979797;
+
+  opacity: .7;
+  
+  background-color: #bdbdbd;
+}
+
+/*  */
