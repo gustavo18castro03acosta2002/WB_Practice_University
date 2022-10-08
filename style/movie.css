@@ -1,10 +1,159 @@
-.movie-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 16px;
-  row-gap: 46px;
+/* content grid */
+
+/* Reactive response */
+
+/* Min */
+@media (max-width: 1385px){
+  .content-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    column-gap: 30px;
+    row-gap: 30px;
+
+    justify-content: center;
+    align-content: center;
+  }
 }
 
-.movie-preview-box{
+/* Medium */
+@media (min-width: 1385.05px) and (max-width: 1635px){
 
+  .content-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    column-gap: 30px;
+    row-gap: 30px;
+
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+/* Max */
+
+@media (min-width: 1635.05px){
+  .content-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    column-gap: 30px;
+    row-gap: 30px;
+
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+/* Movie box */
+.content-box-flex{
+  display: flex;
+
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+}
+
+/* Inside-movie-box-box */
+
+.movie-img-box{
+  width: 150px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-info-box{
+  flex: 1;
+  
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  position:relative;
+}
+
+/* movie-img */
+.movie-img{
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-top: 4px;
+}
+
+/* text container box box*/
+.title-box, .description-box, .buy-box{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.description-box{
+  
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.buy-box{
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+}
+
+/* texts and button */
+
+#title, #description, #buy{
+  margin-left: 10px;
+}
+
+#title{
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#description{
+  line-height: 1.4;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* Button setting  
+Note: this is the ver más button but also may use this to buy btn
+as it was intended :) 
+*/
+#buy{
+
+  font-size: 18px;
+  
+  padding: 8px 15px;
+  margin-right: 5px;
+
+  border: none;
+  border-radius: 5px;
+
+  background-color: #ecebeb;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+  cursor: pointer;
+
+  transition: border .15s, opacity .15s, background-color .15s,
+  font-size .15s, font-weight .15s, padding .15s ;
+}
+/* Button animations */
+#buy:hover{
+  font-weight: 700;
+  border: 1px solid #979797;
+  padding: 8px 25px;
+  opacity: .7;
+  background-color: #bdbdbd;
+}
+
+#buy:active{
+  font-size: 16px;
+  opacity: .5;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .5);
 }

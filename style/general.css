@@ -1,9 +1,14 @@
 body{
   font-family: Roboto, Arial;
-
   margin:0;
   min-width: 800px;
 
   height: 3000px;
+
+  padding-top: 130px;
+  padding-left: 330px;
+  padding-right: 35px;
 }
+
+
 

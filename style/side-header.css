@@ -103,7 +103,7 @@
 
   cursor:pointer;
   transition: font-size .15s, opacity .15s, 
-  background-color .15s, padding .15s;
+  background-color .15s, padding .15s, box-shadow .15s;
 }
 
 .login-btn{
@@ -122,7 +122,7 @@
 
   cursor:pointer;
   transition: font-size .15s, opacity .15s, 
-  background-color .15s, padding .15s;
+  background-color .15s, padding .15s, box-shadow .15s;
 }
 
 .help-btn{
@@ -141,7 +141,7 @@
 
   cursor:pointer;
   transition: font-size .15s, opacity .15s, 
-  background-color .15s, padding .15s;
+  background-color .15s, padding .15s, box-shadow .15s;
 }
 
 .home-btn:hover, .login-btn:hover, .help-btn:hover{
@@ -155,14 +155,15 @@
 }
 
 .home-btn:active, .login-btn:active {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
   
   padding: 9px 25px;
   
   border: 1px solid #979797;
 
-  opacity: .7;
+  opacity: .4;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .5);
   
   background-color: #bdbdbd;
 }
@@ -175,9 +176,10 @@
   
   border: 1px solid #979797;
 
-  opacity: .7;
+  opacity: .4;
   
   background-color: #bdbdbd;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .5);
 }
 
 /*  */
