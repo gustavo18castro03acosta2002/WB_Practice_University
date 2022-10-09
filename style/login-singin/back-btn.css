@@ -1,0 +1,32 @@
+/* Back button */
+.back-box-flex{
+  display: flex;
+
+  width: 20px;
+  height: 40px;
+}
+
+#back-btn{
+  position:relative;
+  padding: 10px;
+  padding-left: 35px;
+
+  border:none;
+  background-color: rgb(235, 235, 235);
+
+  cursor:pointer;
+
+  transition: all .15s;
+}
+
+#back-icon{
+  position:absolute;
+  left: 10px;
+
+  width: 15px;
+}
+
+#back-btn:hover{
+  border: 1px solid rgb(167, 162, 162);
+  border-radius: 5px;
+}
