@@ -1,15 +1,15 @@
 /* Body configuration mod */
 body{
-  height: 0;
+  height: 1000px;
 }
 
 /* Main content grid */
 .main-content-view-grid{
     display: grid;
     grid-template-rows: 1fr 2fr;
-	
+
     justify-content: center;
-	align-items: center;
+		align-items: center;
 }
 
 /* 1st content boxes-------------------------------- */
@@ -19,11 +19,17 @@ body{
 	display: flex;
 	flex-direction: row;
 
+	padding: 10px 0;
+	margin:0;
+
 	height: 300px;
 	width: 1350px;
 
 	justify-content: center;
 	align-items: center;
+
+	box-shadow: 0 0 7px rgba(0, 0, 0, .2);
+	border-radius: 8px;
 }
 
 /* Cinemas table and properties box */
@@ -32,10 +38,15 @@ body{
 	flex-direction: column;
 
 	width: 1350px;
-	height: 100%;
+	height: 500px;
+
+	margin: 0;
 
 	justify-content: center;
 	align-items: center;
+
+	box-shadow: 0 0 7px rgba(0, 0, 0, .2);
+	border-radius: 8px;
 }
 
 /* Sub content boxes --------------------------------*/
@@ -64,8 +75,14 @@ body{
 	
 	flex: .3;
 	width: 100%;
+
+	align-items: center;
+	text-align: center;
+
+	border-radius: 8px;
+	margin-bottom: 5px;
 	
-	background-color: lightgreen;
+	background-color: #f8f8eb;
 }
 
 /* Big sub box of cinemas info */
@@ -73,12 +90,9 @@ body{
 
 	flex: 2;
 	width: 100%;
-
-	background-color: red;
-
 }
 
-/* Items de Movie Content box */
+/* Items de Movie Content box --------------------*/
 
 /* Item de movie poster box */
 
@@ -86,6 +100,7 @@ body{
 	width: 85%;
 	object-fit: contain;
 	border-radius: 8px;
+	margin-top: 5px;
 	margin-left: 15px;
 }
 
@@ -110,3 +125,93 @@ body{
 	margin-left: 15px;
 	line-height: 1.5;
 }
+
+/* items de Cinema content Box */
+#sub-title-cinemas{
+		font-size: 50px;
+		font-weight: 700;
+
+		letter-spacing: 10px;
+
+		margin: 10px 0;
+}
+
+/* Items of Cinema buy ticket info box -----------------*/
+
+.cinemas-table{
+		width: 100%;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+	transition: background-color .15s;
+}
+
+td:hover {background-color: #f3f3f3;}
+
+/* Table Headers */
+#table-headers th{
+		font-size: 30px;
+		font-weight: 700;
+
+		padding: 5px;
+
+		margin: 0;
+}
+
+#header-main-config{
+		width: 900px;
+}
+
+/* Contenido de la tabla ----------------------------- */
+
+/* table cinemas name */
+#table-cine-name{
+		font-size: 25px;
+		font-weight: 400;
+
+		padding: 20px 0 20px 15px ;
+}
+
+/* table buttons styles */
+#table-date-select, #table-time-select, #table-buy-btn{
+		text-align: center;
+}
+
+/* Botones de la tabla style-------------- */
+#date, #time, #buy-btn{
+		font-size: 20px;
+
+		padding: 10px 15px;
+		border: none;
+		outline: none;
+
+		border-radius: 6px;
+		cursor: pointer;
+}
+
+/* Buy btn */
+#buy-btn{
+		font-weight: 700;
+		font-size: 22px;
+		background-color: #1ed45e;
+		box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+
+		transition: border .15s, background-color .15s, opacity .15s, 
+		border .15s, padding .15s, font-size .15s;
+}
+
+#buy-btn:hover{
+		border: 2px solid #0f622c;
+		
+		background-color: #23f66d;
+}
+
+#buy-btn:active{
+		font-size: 18px;
+		border: none;
+		padding: 7px 12px;
+}
+
+/* END OF BUY BTN */
+
