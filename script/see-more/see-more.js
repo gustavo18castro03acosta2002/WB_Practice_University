@@ -21,4 +21,22 @@ window.addEventListener('click', function(e){
     }
 });
 
-//  
+//  Asientos 
+
+let butacasSelect = document.getElementsByClassName('seat-btn');
+const listaButacasSelect = new Array(35).fill(0);
+
+// Event Listener
+
+for(let i = 0; i < butacasSelect.length; i++){
+
+    butacasSelect[i].addEventListener('click', function(){
+
+        butacasSelect[i].style.backgroundColor = 'lightgreen';
+        listaButacasSelect[i] = 1;  
+    });
+
+}
+
+
+

@@ -82,7 +82,7 @@ td {
     transition: background-color .15s;
 }
 
-#seat-btn{
+.seat-btn{
     font-size: 14px;
 
     border: none;
@@ -97,14 +97,14 @@ td {
     transition: background-color .15s, opacity .15s, font-size .15s;
 }
 
-#seat-btn:hover{
+.seat-btn:hover{
     padding: 9px 14px;
     color: #fefefe;
-    border: 1px solid rgb(94, 94, 94);
+    border: 1px solid rgb(94, 94, 9.);
     background-color: rgb(114, 114, 114);
 }
 
-#seat-btn:active{
+.seat-btn:active{
     opacity: .7;
     font-size: 12px;
 }
