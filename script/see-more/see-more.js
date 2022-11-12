@@ -32,10 +32,20 @@ for(let i = 0; i < butacasSelect.length; i++){
 
     butacasSelect[i].addEventListener('click', function(){
 
-        butacasSelect[i].style.backgroundColor = 'lightgreen';
-        listaButacasSelect[i] = 1;  
-    });
+        if(listaButacasSelect[i] === 1){
+            butacasSelect[i].style.backgroundColor = '#b6b6b6';
+            listaButacasSelect[i] = 0;
 
+        }else{
+            
+            butacasSelect[i].style.backgroundColor = 'lightgreen';
+            listaButacasSelect[i] = 1;
+        }
+
+
+
+
+    });
 }
 
 
