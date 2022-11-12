@@ -143,7 +143,7 @@ body{
 }
 
 th, td {
-  border-bottom: 1px solid #ddd;
+  	border-bottom: 1px solid #ddd;
 	transition: background-color .15s;
 }
 
@@ -179,7 +179,7 @@ td:hover {background-color: #f3f3f3;}
 }
 
 /* Botones de la tabla style-------------- */
-#date, #time, #buy-btn{
+#date, #time, .buy-btn{
 		font-size: 20px;
 
 		padding: 10px 15px;
@@ -191,7 +191,7 @@ td:hover {background-color: #f3f3f3;}
 }
 
 /* Buy btn */
-#buy-btn{
+.buy-btn{
 		font-weight: 700;
 		font-size: 22px;
 		background-color: #1ed45e;
@@ -201,13 +201,13 @@ td:hover {background-color: #f3f3f3;}
 		border .15s, padding .15s, font-size .15s;
 }
 
-#buy-btn:hover{
+.buy-btn:hover{
 		border: 2px solid #0f622c;
 		
 		background-color: #23f66d;
 }
 
-#buy-btn:active{
+.buy-btn:active{
 		font-size: 18px;
 		border: none;
 		padding: 7px 12px;
