@@ -24,7 +24,7 @@
         <![endif]-->
         <header>
             <div class="back-box-flex">
-                <a href="/html/Index.html">
+                <a href="/html/Index-login.html">
                     <button id="back-btn">
                         <img src="/src/icons/icons8-arrow-91.png" alt="back" id="back-icon">
                         Atr&aacute;s
@@ -37,6 +37,7 @@
             <!-- Main box content-->
             <section class="container-grid">
 
+                </div>
                 <!-- Box for header info i.e: Account name, email, exit button, other-->
                 <div class="header-info-box">   
                     <h1 id="account-name">
@@ -45,19 +46,63 @@
                     <p id="mail-sample">
                         sample&#64;mail&#46;com
                     </p>
-                    <div class="logout-btn-box">               
-                        <button id="logout">
-                            salir
-                        </button>
+                    <div class="logout-btn-box"> 
+                        <a id="logout-link" href="/html/Index.html">
+                            <button id="logout">
+                                salir
+                            </button>
+                        </a>              
                     </div>
-
+    
                 </div>
                 <!-- Mivies bought table -->
                 <div class="cinemas-bucketin-box">
-                    
-
+                    <table class="bougth-ticket-table-data">
+                        <tr id="table-header">
+                            <th>Cine</th>
+                            <th>Hora</th>
+                            <th>Fecha</th>
+                            <th>Asientos</th>
+                        </tr>
+                        <tr id="table-contents">
+                            <td class="cinema">Sample Cine</td>
+                            <td class="movie-time">Sample Time</td>
+                            <td class="movie-date">Sample Fecha</td>
+                            <td class="movie-asientos">
+                                <div class="center-btn">
+                                    <select class="selecto-asientos">
+                                        <option>
+                                            Sample 1
+                                        </option>
+                                        <option>
+                                            Sample 2
+                                        </option>
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr id="table-contents">
+                            <td class="cinema">Sample Cine</td>
+                            <td class="movie-time">Sample Time</td>
+                            <td class="movie-date">Sample Fecha</td>
+                            <td class="movie-asientos">
+                                <div class="center-btn">
+                                    <select class="selecto-asientos">
+                                        <option>
+                                            Sample 1
+                                        </option>
+                                        <option>
+                                            Sample 2
+                                        </option>
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                    </table>
+    
                 </div>
-
+                
             </section>
 
         </main>

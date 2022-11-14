@@ -151,12 +151,12 @@ td:hover {background-color: #f3f3f3;}
 
 /* Table Headers */
 #table-headers th{
-		font-size: 30px;
-		font-weight: 700;
+	font-size: 30px;
+	font-weight: 700;
 
-		padding: 5px;
+	padding: 5px;
 
-		margin: 0;
+	margin: 0;
 }
 
 #header-main-config{
