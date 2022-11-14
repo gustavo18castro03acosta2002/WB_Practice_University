@@ -9,7 +9,7 @@ body{
     grid-template-rows: 1fr 2fr;
 
     justify-content: center;
-		align-items: center;
+	align-items: center;
 }
 
 /* 1st content boxes-------------------------------- */
